@@ -20,9 +20,9 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    url(r'^', include('neulyferreira.frontend.urls')),
+    url(r'^', include('neulyferreira.frontend.urls', namespace='frontend')),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-    url(r'^admin/', admin.site.urls),
+    url(r'^backend/', admin.site.urls),
 ]
 
 if settings.DEBUG:

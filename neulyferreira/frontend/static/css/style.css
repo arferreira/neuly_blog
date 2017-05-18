@@ -546,7 +546,7 @@ blockquote p span {
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
     text-align: left;
 }
 
@@ -656,7 +656,6 @@ blockquote p span {
 
 .banner-static {
     height: 595px;
-    background-image: url('http://placehold.it/1920x595');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1046,7 +1045,7 @@ blockquote p span {
     cursor: w-resize;
 }
 
-.instagram-feed .owl-stage, 
+.instagram-feed .owl-stage,
 .instagram-feed .owl-stage-outer {
     height: 100%;
     display: inline-block;
@@ -1067,7 +1066,7 @@ blockquote p span {
 .copyright {
     display: inline-block;
     width: 100%;
-    float: left;    
+    float: left;
     overflow: hidden;
 }
 
@@ -1654,7 +1653,7 @@ blockquote p span {
 }
 
 .error-bottom {
-    display: inline-block;    
+    display: inline-block;
     margin-bottom: 30px;
 }
 

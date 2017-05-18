@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+        <div class="aboutus-img">
+            <img src="{{ about.image_capa.url }}" alt="images" />
+        </div>
+    </div>
+    <div class="col-lg-8 col-md-8 ol-sm-8 col-xs-12">
+        <div class="aboutus-info">
+            <h2>Quem sou?</h2>
+            <h5>{{ about.summary }}</h5>
+            <p>
+              {{ about.content|safe }}
+            </p>
+            <h3>Neuly Ferreira</h3>
+            <!-- Social Media Links Begins -->
+            <ul class="social">
+                <li>
+                    <a href="https://www.facebook.com/neuly.ferreiradasilva"><i class="fa fa-facebook"></i></a>
+                </li>
+
+            </ul>
+            <!-- Social Media Links Ends -->
+        </div>
+    </div>
+</div>
+    {% endblock %}
